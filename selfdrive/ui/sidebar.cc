@@ -52,7 +52,7 @@ static void ui_draw_sidebar_battery_icon(UIState *s) {
 static void ui_draw_sidebar_network_type(UIState *s) {
   static std::map<cereal::ThermalData::NetworkType, const char *> network_type_map = {
       {cereal::ThermalData::NetworkType::NONE, "--"},
-      {cereal::ThermalData::NetworkType::WIFI, "WiFi"},
+      {cereal::ThermalData::NetworkType::WIFI, "Waifu"},
       {cereal::ThermalData::NetworkType::CELL2_G, "2G"},
       {cereal::ThermalData::NetworkType::CELL3_G, "3G"},
       {cereal::ThermalData::NetworkType::CELL4_G, "4G"},
